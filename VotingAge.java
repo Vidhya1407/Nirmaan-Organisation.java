@@ -12,7 +12,7 @@ public class VotingAge {
 			}
 //main method	
 	public static void main(String[] args) {
-	454	Scanner sc=new Scanner(System.in);
+	    Scanner sc=new Scanner(System.in);
 		System.out.print("Enter Age : ");
 		int input=sc.nextInt();
 //create object to call the method(function)		
