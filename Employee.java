@@ -1,54 +1,82 @@
-package day12;
+package day10;
 
 public class Employee {
-	
-  
+	private int id;
 	private String name;
-	private String id;
-	private long phnNo;
+	private long contact;
 	private double salary;
-//default constructor	
-    public Employee(){
+	
+	public Employee() {
 		
 	}
-//Paramaterialized constructor	
-    public Employee(String name,String id,long phnNo, double salary) {
-    	this.name=name;
-    	this.id=id;
-    	this.phnNo=phnNo;
-    	this.salary=salary;
-    }
-	 
+
+	public Employee(int id) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.contact = contact;
+		this.salary = salary;
+	}
+	public Employee(String name) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.contact = contact;
+		this.salary = salary;
+	}
+	public Employee( long contact) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.contact = contact;
+		this.salary = salary;
+	}
+	public Employee(double salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.contact = contact;
+		this.salary = salary;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getId() {
-		return id;
+
+	public long getContact() {
+		return contact;
 	}
-	public void setId(String id) {
-		this.id = id;
+
+	public void setContact(long contact) {
+		this.contact = contact;
 	}
-	public long getPhnNo() {
-		return phnNo;
-	}
-	public void setPhnNo(long phnNo) {
-		this.phnNo = phnNo;
-	}
+
 	public double getSalary() {
 		return salary;
 	}
+
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
 
 	@Override
 	public String toString() {
-		
-		return "Your name is : " + name + "\nYour ID is : " + id + "\nYour phoneNumber is : " + phnNo + "\nYour salary is : " + salary ;
-				
+		return "Employee Details [Employee ID= " + id + ", Employee Name= " + name + ", Employee Contact= " + contact + ", Employee Salary= $" + salary + " ]";
 	}
 	
+
+	
+
 }
