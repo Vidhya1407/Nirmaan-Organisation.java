@@ -2,7 +2,7 @@ package BookManagementSystem;
 
 import java.util.Scanner;
 
-import day15.libraryMS;
+import day15.BookMS;
 
 public class UI_BookMS {
 	public static void main(String[] args) {
