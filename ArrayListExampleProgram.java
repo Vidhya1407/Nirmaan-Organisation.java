@@ -64,6 +64,9 @@ public class ArrayListExampleProgram {
 		System.out.println(list.containsAll(strList)); //it check a list is placed or not.
 		
 		System.out.println(list.clone());   //it creates a shallow copy of a list.
+
+		list.clear();
+		System.out.println("After clear - "+list);
 		
 		ArrayList<String> strList1=new ArrayList<String>();
 		strList1.add("one");
@@ -119,13 +122,6 @@ public class ArrayListExampleProgram {
 		System.out.println("String values : "+stringList);
 		System.out.println("Boolean values : "+booleanList);
 
-        
-		//list.clear();
-		//System.out.println("After clear - "+list);
-		
-		
-		
-
-	}
+        }
 
 }
