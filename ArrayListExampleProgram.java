@@ -1,8 +1,6 @@
 package ArrayListEx;
 import java.util.ArrayList;
 import java.util.List;
-
-import busReserv.booking;
 public class ArrayListExampleProgram {
 
 	public static void main(String[] args) {
